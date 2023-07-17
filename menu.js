@@ -4,21 +4,21 @@ const readline = require('readline');
 
 // Define the catalog of menu items with their allergy options
 const menuItems = [
-    { name: 'Cheeseburger and Nacho Fries', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'adult' },
-    { name: 'Steak with Mashed Potatoes and Asparagus', allergies: ['Wheat', 'Soy'], category: 'adult'  },
-    { name: 'MeatLoaf with Mashed Potatoes, Gravy, and Sweet Corn', allergies: ['Wheat', 'Soy'], category: 'adult'  },
-    { name: 'Roast Beef with Broccoli and Garlic Bread', allergies: ['Wheat', 'Soy'], category: 'adult'  },
-    { name: 'Chicken Tender Sandwich with French dip and Onion Rings', allergies: ['Wheat', 'Soy', 'peanut'], category: 'adult'  },
-    { name: 'Fillet of Alaskan Pollock with Fried Rice', allergies: ['Shellfish', 'Eggs'], category: 'adult'  },
-    { name: 'BLT with Seasoned Fries', allergies: ['Wheat'], category: 'adult'  },
-    { name: 'Lasagna with Meat Sauce and Country style Green Beans', allergies: ['Dairy', 'Wheat'], category: 'adult'  },
-    { name: 'Chicken Cordon Bleu with Macaroni and Fried Ocra', allergies: ['Dairy', 'Poultry'], category: 'adult'  },
-    { name: 'Pork Ribs with a side Caesar Salad and Baked Potato', allergies: ['Gluten', 'Wheat'], category: 'adult'  },
-    { name: 'Chicken Nuggets and Macaroni', allergies: ['Dairy'], category: 'child' },
-    { name: 'Cheese Pizza with a Fruit Cup', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child' },
-    { name: 'Corn Dog with French Fries', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child' },
-    { name: 'Chicken Tenders with Steamed Broccoli', allergies: ['Gluten', 'Wheat'], category: 'child' },
-    { name: 'Quesadilla with a side of Rice and beans', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child' },
+    { name: 'Cheeseburger and Nacho Fries', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'adult'},
+    { name: 'Steak with Mashed Potatoes and Asparagus', allergies: ['Wheat', 'Soy'], category: 'adult'},
+    { name: 'MeatLoaf with Mashed Potatoes, Gravy, and Sweet Corn', allergies: ['Wheat', 'Soy'], category: 'adult'},
+    { name: 'Roast Beef with Broccoli and Garlic Bread', allergies: ['Wheat', 'Soy'], category: 'adult'},
+    { name: 'Chicken Tender Sandwich with French dip and Onion Rings', allergies: ['Wheat', 'Soy', 'peanut'], category: 'adult'},
+    { name: 'Fillet of Alaskan Pollock with Fried Rice', allergies: ['Shellfish', 'Eggs'], category: 'adult'},
+    { name: 'BLT with Seasoned Fries', allergies: ['Wheat'], category: 'adult'},
+    { name: 'Lasagna with Meat Sauce and Country style Green Beans', allergies: ['Dairy', 'Wheat'], category: 'adult'},
+    { name: 'Chicken Cordon Bleu with Macaroni and Fried Ocra', allergies: ['Dairy', 'Poultry'], category: 'adult'},
+    { name: 'Pork Ribs with a side Caesar Salad and Baked Potato', allergies: ['Gluten', 'Wheat'], category: 'adult'},
+    { name: 'Chicken Nuggets and Macaroni', allergies: ['Dairy'], category: 'child'},
+    { name: 'Cheese Pizza with a Fruit Cup', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child'},
+    { name: 'Corn Dog with French Fries', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child'},
+    { name: 'Chicken Tenders with Steamed Broccoli', allergies: ['Gluten', 'Wheat'], category: 'child'},
+    { name: 'Quesadilla with a side of Rice and beans', allergies: ['Dairy', 'Gluten', 'Wheat'], category: 'child'},
 
     // Add more menu items as needed
 ];
